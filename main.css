@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 330px;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    width: 256px;
+    margin-bottom: 32px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    height: 80px;
+    width: 150px;
+    list-style: none;
+}
+
+dd {
+    margin: auto;
+    margin-top: 5px;
+}
